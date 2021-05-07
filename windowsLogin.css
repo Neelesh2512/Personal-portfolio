@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body,html{
+    
+   height: 100%;
+   background-color: royalblue;
+}
+.lockscreenBg{
+    background-color:royalblue;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 70%;
+    background-position: center;
+    display: flex;
+    /* flex-direction: column; */
+    align-content: center;
+    justify-content: center;
+    font-size: 80px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.user{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    
+    
+}
+i{
+    margin-left: 0%;
+}
+.icon{
+    font-size: 200px;
+}
+span{
+    font-size: 50px;
+    padding-left: 42px ;
+}
+.password{
+  
+    height: 20px;
+    width: 250px;
+    margin: 0 0px 0 0;
+}
+.textfield{
+    padding-right: 0px;
+    border: none;
+    height: 30px;
+}
+.textfield:focus{
+    outline: none;
+}
+.button{
+    height:30px ;
+    width: 30px;
+    background-color: rgb(9, 46, 156);
+    border: none;
+}
+

@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body,html{
+    
+   height: 100%;
+}
+.bg{
+    /* background-image: url(images/wallpaper.jpg); */
+    background-color: coral;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 95%;
+    background-position: center;
+}
+.taskbar{
+    background-color:white ;
+    color: black;
+    display: flex;
+     flex-direction: row;
+    flex-wrap: wrap;
+    
+}
+
+.icons{
+    margin-bottom: 0;
+    /* background-color: brown; */
+    margin-left: 5px;
+    padding-top: 10px;
+}
+.cover{
+    height: 100%;
+}
+.menu{
+    position: absolute;
+    bottom: 33px;
+    height:80%;
+    width: 57%;
+    background-color: #242425;
+    display: flex;
+    padding-left: 50px ;
+    align-content: center;
+    justify-content: center;
+    opacity: 0.9;
+}
+/* .start-Menu{
+    position: absolute;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    bottom: 33px;
+    height:80%;
+    width: 60%;
+    margin: 10px;
+} */
+
+#startmenu{
+    /* padding:7px 0 1px 15px; */
+    
+    font-weight: 100;
+}
+#search{
+    
+    margin-left: 20px;
+    transform: scaleX(-1);
+    font-weight: 50;
+}
+/* .fa{
+    background-color: brown;
+} */
+.softwares{
+    /* background-color: brown; */
+    margin-top: 7px;
+    margin-left: 35%;
+    display: flex;
+}
+#file-explorer,#store,#brave,#chrome,#edge{
+    height: 22px;
+     
+}
+#mail,#vscode{
+    height: 20px;   
+}
+img{
+    padding: 0 9px 0 9px;
+}
